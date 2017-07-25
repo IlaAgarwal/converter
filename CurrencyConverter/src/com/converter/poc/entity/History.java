@@ -37,7 +37,7 @@ public class History {
 
 	@DateTimeFormat(pattern="dd-MM-yyyy")
 	@Column(name="QUERY_TIMESTAMP")
-	private Date queryDate;
+	private Date queryDate = new Date();
 	
 	@Column(name="EXCHNAGE_RATE_TIMESTAMP")
 	private Date timeStamp=new Date();
