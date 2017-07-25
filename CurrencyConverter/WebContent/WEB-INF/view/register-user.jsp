@@ -104,7 +104,7 @@
 					</tr>
 					<tr>
 					<td align="left" width="20%">State: </td>
-					<td  align="left" width="40%"><form:select id="state" path="userAddress.stateName" onblur="alert(this.value);">-----Select-----</form:select>
+					<td  align="left" width="40%"><form:select id="state" path="userAddress.stateName">-----Select-----</form:select>
 					<td  align="left" width="40%"><form:errors path="userAddress.stateName" cssClass="error"/></td>
 					</tr> 
 					<tr>
@@ -133,7 +133,7 @@
 				
 				<tr>
 					
-					<td align="left" colspan="3"><input type="submit" value="Register"/></td>
+					<td align="center" colspan="3"><input type="submit" value="Register"/></td>
 					
 				</tr>
 		</form:form>
