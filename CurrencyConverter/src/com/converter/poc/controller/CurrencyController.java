@@ -88,7 +88,7 @@ public class CurrencyController {
 	
  @InitBinder
 	    public void initBinder(WebDataBinder binder) {
-	        SimpleDateFormat sdf = new SimpleDateFormat("dd-mm-yyyy");
+	        SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
 	        sdf.setLenient(false);
 	        binder.registerCustomEditor(Date.class, new CustomDateEditor(sdf, true));
 	    }
