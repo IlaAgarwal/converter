@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+prodDatabaseName=currency_converter
+prodDatabasePassword=converter
+prodDatabaseUser=converter
+prodInstanceName=poc
